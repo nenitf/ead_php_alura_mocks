@@ -2,6 +2,20 @@
 
 > Projeto referente a [este](https://cursos.alura.com.br/course/php-mocks) curso.
 
+## Doubles (dublês)
+
+Diretamente do curso:
+
+>  Objetos chamados de **Dummy** são objetos que, na verdade, nunca são utilizados. Normalmente servem apenas para preencher os requisitos dos parâmetros de algum método.
+
+> Já os **Fakes** são implementações que realmente funcionam, mas normalmente tomam algum tipo de atalho que não os permitem ser utilizados em produção (um banco de dados em memória, por exemplo).
+
+> Os **Stubs** fornecem respostas pré-definidas às chamadas dos métodos pré-definidos durante o teste. Normalmente não respondem ao que não forem explicitamente programados para responder.
+
+> Enquanto isso, **Spies** são stubs, que também gravam algum tipo de informação, baseado em como foram utilizados. Um bom exemplo é um serviço de e-mail, que guarda quantas mensagens foram enviadas.
+
+> Já os **Mocks** são os que estamos utilizando. São objetos pré-programados, com expectativas das mensagens (métodos e seus parâmetros) que vão receber.
+
 ## Disclaimer
 
 Fiz a aula com o braço quebrado, portanto foi estudo mais passivo com copy/paste de código.
@@ -36,4 +50,3 @@ vim README.md -c "call NN_GitAula2()" -c qa!
 ```sh
 composer i
 ```
-
